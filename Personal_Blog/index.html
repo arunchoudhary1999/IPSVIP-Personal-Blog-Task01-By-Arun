@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Choudhary Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- This is Font Awesome link For using Icon -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    
+    <!-- This is Bootstrap Offcial Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    
+    <!-- Here Adding a Style File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <!-- Start Header Tag -->
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="text-uppercase main_heading">Arun Choudhary</h1>
+            <p class="main_heading__para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3">world of blog</span> </p>
+        </div>
+
+        <!-- The Main Image -->
+        <div class="main_header__div d-flex align-items-start justify-content-center  flex-column shadow pl-5">
+            <p>Arun Choudhary</p>
+
+            <!-- <h2 class="text-uppercase">the Progammer guy</h2> -->
+            <h2 class="animateWord">
+                <span>He is</span>
+                <div>
+                    <ul class="flip4">
+                        <li> a Progammer </li>
+                        <li> a Youtuber</li>
+                        <li> a Freelancer</li>
+                        <li> Awesome </li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="text-uppercase">subscribe</button>
+        </div>
+    </header>
+    <!-- End Header Tag -->
+
+    <!-- Start Two Sided Blog Part -->
+    <div class="container-fluid ">
+        <div class="row ">
+            <!-- To Get The Space Form Left and Right -->
+            <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+
+                    <!-- Left Side of The Blog  -->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5 ">
+                            <!-- 1rd Blog Topic -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase text-center">Web Development and Design Internship Tasks 2021</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold">Task 01 :- Personal Blog / Personal Portfolio, </span>Nov 8, 2021 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="./images/task 01.jpg" class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">Personal Blog / Personal Portfolio</span> How would it be if you can make a project that will not only help you to enhance 
+                                    your web development skills but also act as a platform to share your learning or 
+                                    experiences with others? Yes, a Personal Blog can do the same. Though a blog can be 
+                                    created from basic to advanced level, initially you’re recommended to opt for creating a 
+                                    basic blogging site using HTML, CSS, and Java Script. </p>
+                                <p> And, if you’re having sound 
+                                    knowledge of CSS Grid, Flexbox, Responsive Design, and other related concepts, it 
+                                    would be more beneficial for you to create an enriching Personal Blog project. 
+                                    Meanwhile, Bootstrap also allows you to create a responsive blog that can run on 
+                                    different screen sizes conveniently and efficiently.
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <!-- onclick is a event, replay is a function, replay1 is a id -->
+                                        <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                    </div>
+                                </div>
+                                <!-- This is only Toggle for using Show and Hide on Clicking -->
+                                <div class="replies" id="reply1">
+                                    <!-- This is give to Id for Complasary in div -->
+                                    <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Arun, </span> Nov 08, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2nd Blog Topic -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase text-center">Web Development and Design Internship Tasks</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold">Task 02 :- E-commerce Site or Online Shopping Website, </span> Nov 09, 2021 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="./images/task 02.jpg" class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">E-commerce Site or Online Shopping Website</span> Most web developers end up working for a company that sells online or 
+                                    provides services to customers through an online interface. Nowadays, there are so 
+                                    many food delivery sites, online stores etc. So, there is a huge demand for web 
+                                    developers in this arena. It is great if you have something similar to your portfolio to 
+                                    get you hired. Try building an interface for an online shop. Make sure to use Flexbox 
+                                    for a neat layout. You can add many features to it as you want.
+                                    </p>
+                                <p> (Hint: add to cart, view cart, etc.) Consider all the pages that you will have to 
+                                    include in it and put in on the navbar. (Hint: login-registration page, contact page, 
+                                    user profile page, etc.) Work with databases and improve on backend logic as you 
+                                    proceed. (Hint: Study about recommendation algorithms used on these platforms 
+                                    which result in a tremendous increase in their revenues.)
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply2">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Manish, </span> Nov 09, 2021, 7:20 PM </p>
+                                            <p>I really like the way you teach. Subscribed :)</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Manish, </span> Nov 09, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 3rd Blog Topic -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                    <h1 class="text-uppercase text-center">Web Development and Design Internship Tasks</h1>
+                                    <p class="blog_title"> <span class="font-weight-bold">Task 03 :- Browser Extensions, </span> Nov 10, 2021 </p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="./images/task 03.jpg" class="img-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">Browser Extensions</span> You have been using some browser extensions for a long time but Do you know 
+                                    that the browser extensions are made using JavaScript!</p>
+                                <p> Building a extensions for browser test out your skills and understanding of 
+                                    javascript.You can make extensions that can make day to day tasks easier and well 
+                                    organised .for example you can make a notes extension that would let user make a 
+                                    note directly in browser without opening any other application .You can also build 
+                                    extensions like find the meaning of any word that user enters it would help user to 
+                                    read online, or you can decide which extension you want to make.
+                                    You can host these extensions on chrome web store or Mozilla web store.
+                                </p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply3">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Ankush, </span> Nov 10, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Ankush, </span> Nov 10, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Vikash, </span> Nov 10, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <span class="font-weight-bold"> Vikash, </span> Nov 10, 2021, 7:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side of the Div -->
+                    <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                        <div class="row gy-5 left_div__blog">
+
+                            <!-- About me Part -->
+                            <div class="col-12  about_me_div shadow">
+                                <p>Arun Choudhary</p>
+                                <p> I am a website designer and developer.
+                                    I love art and always try to show unique views to the audience through my design.
+                                </p>
+                            </div>
+
+                            <!-- Popular Post -->
+                            <div class=" popular_post ">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Popular Posts</h2>
+                                </div>
+                                <div class="right_sub__div shadow">
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img1 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p class="text-capitalize">CEO Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img2 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark Zuckerberg </h3>
+                                            <p class="text-capitalize">Programmer</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img3 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Jeff Bezos</h3>
+                                            <p class="text-capitalize">Amazon</p>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-3  popular_post__img4 py-2 pl-2">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Steve Jobs</h3>
+                                            <p class="text-capitalize">Apple</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- advertise -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Advertise</h2>
+                                </div>
+                                <div class="right_sub__div ">
+                                    <div class="adevetise_img bg-light shadow">
+                                        <p>Ads goes here</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- tags -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags_main right_sub__div">
+                                    <a href="#" target="_arun" class="badge shadow text-capitalize"> html </a>
+                                    <a href="#" class="badge shadow text-capitalize"> css </a>
+                                    <a href="#" class="badge shadow text-capitalize"> js </a>
+                                    <a href="#" class="badge shadow text-capitalize"> react </a>
+                                    <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                    <a href="#" class="badge shadow text-capitalize"> php </a>
+                                    <a href="#" class="badge shadow text-capitalize"> python </a>
+                                    <a href="#" class="badge shadow text-capitalize"> kotlin </a>
+                                    <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                    <a href="#" class="badge shadow text-capitalize"> java </a>
+                                </div>
+                            </div>
+                            
+                            <!-- Inspiration -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Inspiration</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <div class="row gx-3">
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Follow Me -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Follow Me</h2>
+                                </div>
+                                <div class="right_sub__div d-flex justify-content-around">
+                                    <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+                                    <a href="https://www.instagram.com/arun_choudhary21/" target="_arun"> <i class="fab fa-3x fa-instagram"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Subscribe -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Subscribe</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                            <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center py-5 bg-light">design with love By ©ArunChoudhary</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <!-- then Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    
+    <!-- Start the Javascript -->
+    <script type="text/javascript">
+
+        // 1rd Step Like Button js, To get the id of like_btn
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+
+        // 2nd Step to call the fuction on Click then double click
+        var clickCount = 0;
+        like.addEventListener('click', function () {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function () {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "thapa_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(thapa_show);
+            } else if (res.className == 'thapa_show') {
+                // res.className = " ";
+                console.log('thapa show');
+                res.className = "replies";
+            }
+        }
+    </script>
+</body>
+
+</html>
